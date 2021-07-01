@@ -1,0 +1,10 @@
+.lead__images {
+  padding-top: 64px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__images {
+    max-width: 768px;
+  }
+}
