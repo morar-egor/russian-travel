@@ -8,14 +8,15 @@
   line-height: 28px;
   text-decoration: none;
   transition: opacity .3s ease;
+  margin-left: 18px;
 }
 
 .header__link:hover {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
-  .header__link { 
+@media screen and (max-width: 767px) {
+  .header__link {
   font-size: 18px;
   line-height: 20px;
   }
